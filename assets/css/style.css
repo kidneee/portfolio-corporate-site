@@ -8,7 +8,7 @@
   --text-color: #000;
 }
 
-[lang="en"] {
+[lang='en'] {
   text-transform: uppercase;
 }
 
@@ -20,7 +20,14 @@ body {
 /*=====================
   ヘッダー
 =====================*/
+.header__inner {
+  padding: 18px 10.13% 18px 4.27%;
+}
 
+.g-nav__list {
+  display: flex;
+  gap: 8%;
+}
 /*=====================
   メインコンテンツ
 =====================*/
