@@ -6,6 +6,7 @@
 :root {
   --bg-color-body: #f0f0f0;
   --text-color: #000;
+  --title-line-color: #000;
 }
 
 [lang='en'] {
@@ -19,12 +20,31 @@ body {
 
 /* コンポーネント */
 .c-title {
+  position: relative;
+  margin-bottom: 70px;
+}
+
+.c-title::after {
+  position: absolute;
+  left: 0;
+  bottom: -24px;
+  content: '';
+  width: 40px;
+  height: 1px;
+  background-color: var(--title-line-color);
+}
+
+.c-title-en {
+  display: block;
+  margin-bottom: 10px;
   font-size: 2.25rem;
+  line-height: 1;
 }
 
 .c-title-ja {
   display: block;
   font-size: 0.875rem;
+  line-height: 1.5;
 }
 
 /* レイアウト */
