@@ -120,6 +120,26 @@ body {
   line-height: 1.714;
 }
 
+/* About */
+.about {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 30px;
+  margin-bottom: 80px;
+}
+
+.about__desc {
+  font-size: 0.875rem;
+  line-height: 2.2;
+}
+
+.about__image {
+  height: 300px;
+  width: auto;
+  max-width: 100%;
+  object-fit: cover;
+}
+
 /*=====================
   フッター
 =====================*/
