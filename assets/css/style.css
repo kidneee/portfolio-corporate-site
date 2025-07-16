@@ -140,6 +140,36 @@ body {
   object-fit: cover;
 }
 
+/* Business */
+.business__list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.business__item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.business__item-label {
+  position: relative;
+  padding-left: 4.8%;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.business__item-label::before {
+  position: absolute;
+  content: '';
+  width: 8px;
+  height: 1px;
+  background-color: var(--text-color);
+  top: 50%;
+  left: 0;
+}
 /*=====================
   フッター
 =====================*/
