@@ -170,6 +170,46 @@ body {
   top: 50%;
   left: 0;
 }
+
+/* Company */
+.company .l-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.white-wrapper {
+  padding: 40px 5.33%;
+  background-color: #fff;
+}
+
+.company .c-title-en {
+  letter-spacing: 0.3em;
+}
+
+.company__info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.company__definition {
+  padding-left: 3.73%;
+}
+
+.company-business__list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.company__image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
 /*=====================
   フッター
 =====================*/
