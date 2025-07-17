@@ -9,6 +9,7 @@
   --title-line-color: #000;
   --bg-color-label: #000;
   --text-color-label: #fff;
+  --bg-color-footer: #fff;
 }
 
 [lang='en'] {
@@ -213,3 +214,26 @@ body {
 /*=====================
   フッター
 =====================*/
+.footer {
+  background-color: var(--bg-color-footer);
+}
+
+.footer__inner {
+  gap: 10px;
+  padding: 48px 4.27% 20px;
+}
+
+.footer__logo {
+  margin-bottom: 10px;
+}
+
+.footer__address {
+  margin-bottom: 30px;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.footer__copyright {
+  font-size: 0.625rem;
+  line-height: 1.5;
+}
