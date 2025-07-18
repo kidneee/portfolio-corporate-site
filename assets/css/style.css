@@ -61,10 +61,38 @@ body {
 .header__inner {
   padding: 18px 10.13% 18px 4.27%;
 }
+@media (min-width: 769px) {
+  .header__inner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 4.29%;
+    padding: 27px 7.14% 27px 7.14%;
+  }
+}
 
 .g-nav__list {
   display: flex;
   gap: 8%;
+}
+
+.header__contact {
+  display: none;
+}
+@media (min-width: 769px) {
+  .header__contact {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    width: 14.29%;
+    height: 100%;
+    color: #fff;
+    background-color: #000;
+  }
 }
 
 /*=====================
