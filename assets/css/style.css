@@ -26,6 +26,11 @@ body {
   position: relative;
   margin-bottom: 70px;
 }
+@media (min-width: 769px) {
+  .c-title {
+    margin-bottom: 67px;
+  }
+}
 
 .c-title::after {
   position: absolute;
