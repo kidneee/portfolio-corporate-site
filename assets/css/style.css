@@ -71,6 +71,17 @@ body {
   }
 }
 
+.header__image {
+  width: 80px;
+  height: 20px;
+}
+@media (min-width: 769px) {
+  .header__image {
+    width: 100px;
+    height: 26px;
+  }
+}
+
 .g-nav__list {
   display: flex;
   gap: 8%;
@@ -253,6 +264,17 @@ body {
 
 .footer__logo {
   margin-bottom: 10px;
+}
+
+.footer__image {
+  width: 80px;
+  height: 20px;
+}
+@media (min-width: 769px) {
+  .footer__image {
+    width: 100px;
+    height: 26px;
+  }
 }
 
 .footer__address {
