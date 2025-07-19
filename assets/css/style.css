@@ -123,11 +123,26 @@ body {
   object-fit: cover;
   padding-bottom: 40px;
 }
+@media (min-width: 900px) {
+  .main-visual__image {
+    padding-bottom: 60px;
+  }
+}
 
 /* News */
 .news {
   padding-top: 40px;
   padding-bottom: 45px;
+}
+@media (min-width: 900px) {
+  .news {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .news .l-inner {
+    padding: 0 14.29vw;
+  }
 }
 
 .news__list {
