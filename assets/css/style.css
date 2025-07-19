@@ -193,6 +193,19 @@ body {
   padding-top: 45px;
   padding-bottom: 40px;
 }
+@media (min-width: 769px) {
+  .about {
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    gap: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .about .l-inner {
+    padding: 180px 5vw 0;
+  }
+}
 
 .about__desc {
   font-size: 0.875rem;
@@ -204,6 +217,12 @@ body {
   width: auto;
   max-width: 100%;
   object-fit: cover;
+}
+@media (min-width: 900px) {
+  .about__image {
+    width: 55vw;
+    height: 400px;
+  }
 }
 
 /* Business */
