@@ -57,9 +57,25 @@ body {
   line-height: 1.5;
 }
 
+.c-page-title {
+}
+
 /* レイアウト */
 .l-inner {
   padding: 0 4.27%;
+}
+
+/* ユーティリティ */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 /*=====================
@@ -446,4 +462,55 @@ body {
 .footer__copyright {
   font-size: 0.625rem;
   line-height: 1.5;
+}
+
+/*=====================
+  Newsページ
+=====================*/
+.news-page__heading {
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.tab-list,
+.tab-content {
+  display: flex;
+  width: 100%;
+}
+
+.tab-list {
+  margin-bottom: 40px;
+}
+
+.tab-item {
+  width: 50vw;
+  padding-bottom: 20px;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  text-align: center;
+  cursor: pointer;
+  border-bottom: 1px solid #000;
+}
+
+.tab-item.active {
+  border-bottom: 3px solid #000;
+}
+
+.tab-content,
+.tab-panel {
+  border-radius: 8px;
+  width: 100%;
+}
+
+.tab-panel {
+  display: none;
+}
+
+.tab-panel.active {
+  display: block;
+}
+
+.tab__contents .news__item {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #ccc;
 }
