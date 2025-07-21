@@ -595,12 +595,31 @@ body {
 
 .contact-page__heading {
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   margin-bottom: 0;
+}
+@media (min-width: 900px) {
+  .contact-page__heading {
+    padding-bottom: 40px;
+  }
+}
+
+.contact-page__contents {
+  padding-top: 20px;
+}
+@media (min-width: 900px) {
+  .contact-page__contents {
+    padding-top: 40px;
+  }
 }
 
 .contact-page__desc {
-  margin-bottom: 40px;
+  padding-bottom: 20px;
+}
+@media (min-width: 900px) {
+  .contact-page__desc {
+    padding-bottom: 30px;
+  }
 }
 
 .contact-page__form {
@@ -608,8 +627,14 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 30px;
+  padding-top: 20px;
   font-size: 0.875em;
   line-height: 1.5;
+}
+@media (min-width: 900px) {
+  .contact-page__form {
+    padding-top: 30px;
+  }
 }
 
 .contact-page__form-item {
