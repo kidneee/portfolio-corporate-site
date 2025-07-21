@@ -470,6 +470,11 @@ body {
 .news-page {
   padding-bottom: 120px;
 }
+@media (min-width: 900px) {
+  .news-page .l-inner {
+    padding: 0 14.29vw;
+  }
+}
 
 .news-page__heading {
   padding-top: 40px;
