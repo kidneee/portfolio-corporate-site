@@ -467,6 +467,10 @@ body {
 /*=====================
   Newsページ
 =====================*/
+.news-page {
+  padding-bottom: 120px;
+}
+
 .news-page__heading {
   padding-top: 40px;
   padding-bottom: 50px;
