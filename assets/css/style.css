@@ -479,6 +479,7 @@ body {
 .news-page__heading {
   padding-top: 40px;
   padding-bottom: 50px;
+  margin-bottom: 0;
 }
 
 .tab-list,
@@ -578,4 +579,66 @@ body {
 
 .news-page__item-title {
   line-height: 1.714;
+}
+
+/*=====================
+  Contactページ
+=====================*/
+.contact-page {
+  padding-bottom: 120px;
+}
+@media (min-width: 900px) {
+  .contact-page .l-inner {
+    padding: 0 14.29vw;
+  }
+}
+
+.contact-page__heading {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 0;
+}
+
+.contact-page__desc {
+  margin-bottom: 40px;
+}
+
+.contact-page__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  font-size: 0.875em;
+  line-height: 1.5;
+}
+
+.contact-page__form-item {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.contact-page__form-input,
+.contact-page__form-textarea {
+  display: block;
+  background-color: #fff;
+}
+
+.contact-page__form-input {
+  height: 51px;
+}
+
+.contact-page__form-textarea {
+  height: 180px;
+}
+
+.contact-page__form-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  border: 1px solid #000;
 }
